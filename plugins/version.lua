@@ -1,15 +1,15 @@
 do
 
 function run(msg, matches)
-    return "Self-Bot v2 Editted by Electrovirus
-@Electrovirus (My id)
-@Electrovirus_official (Channel)"
+    return "Self-Bot v4 Edited by Security King
+pv : @Xx_SECURITY_xX
+ch : @Nod32TM"
 end 
 return {
   patterns = {
     "^#version$",
     "^#bot$",
-    "^#virusself$"
+    "^#self$"
   },
   run = run
 }
