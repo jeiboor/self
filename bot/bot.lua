@@ -240,13 +240,13 @@ function create_config( )
      "tools",
      "weather",
      },
-    sudo_users = {184018132},
-    admin_users = {},
+    sudo_users = {187161700},
+    admin_users = {187161700},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
   print ('saved config into ./data/config.lua')
-end
+8end
 
 function create_gbans( )
   -- A simple config with basic plugins and ourselves as privileged user
