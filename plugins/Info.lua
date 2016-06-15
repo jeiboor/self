@@ -167,6 +167,7 @@ number = number.."\nکشور: جمهوری اسلامی ایران"
  .."نوع پیام: "..msg_type.."\n\n"
  .."نام گروه: "..string.gsub(result.to.print_name, "_", " ").."\n"
  .."آی دی گروه: "..result.to.id
+ .. "self gorg"
  send_large_msg(org_chat_id, info)
 end
 
